@@ -39,10 +39,3 @@ class Carnivore(Animal):
         if type(other) is Herbivore:
             if not other.hidden:
                 other.update_health(-50)
-
-
-
-lion = Carnivore("King Lion")
-pantera = Carnivore("Bagira")
-rabbit = Herbivore("Susan")
-print(Animal.alive)
